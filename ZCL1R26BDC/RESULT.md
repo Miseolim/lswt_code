@@ -3,5 +3,4 @@
 
 
 
-
-![Uploading image.png…]()
+![실행 화면](https://github.com/user-attachments/assets/0ef19cad-0a6b-4ca1-af6b-501e628604bb)
