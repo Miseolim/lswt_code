@@ -33,5 +33,3 @@ START-OF-SELECTION.
 
   CALL SCREEN 100.
 
-----------------------------------------------------------------------------------
-Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 758
