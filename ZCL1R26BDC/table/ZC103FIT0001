@@ -1,0 +1,41 @@
+ZC103FIT0001
+전표헤더
+Row	Field name	Position	Key	Data element	Domain	Datatype	Length	Domain text
+1	MANDT	1	X	MANDT	MANDT	CLNT	3	Client
+2	BUKRS	2	X	BUKRS	BUKRS	CHAR	4	Company Code
+3	BELNR	3	X	BELNR_D	BELNR	CHAR	10	Document Number of an Accounting Document
+4	GJAHR	4	X	GJAHR	GJAHR	NUMC	4	Fiscal Year
+5	BLDAT	5	 	BLDAT	DATUM	DATS	8	Document Date in Document
+6	BLART	6	 	ZC103E_FI_BLART	ZC103D_FI_BLART	CHAR	2	전표유형
+7	BUDAT	7	 	BUDAT	DATUM	DATS	8	Posting Date in the Document
+8	WAERS	8	 	WAERS	WAERS	CUKY	5	Currency Key
+9	BKTXT	9	 	ZC103E_FI_TXT100	 	CHAR	100	텍스트
+10	MBLNR	10	 	XBLNR1	XBLNR1	CHAR	16	Reference Document Number
+11	BSTAT	11	 	ZC103E_FI_BSTAT	ZC103D_FI_BSTAT	CHAR	1	전표 상태 코드
+12	USCODE	12	 	ZC103E_FI_EMPNO	 	CHAR	20	직원 번호
+13	USNAME	13	 	ZC103E_FI_ENAME	 	CHAR	8	직원 명
+14	STBLG	14	 	STBLG	BELNR	CHAR	10	Reverse Document Number
+15	STJAH	15	 	STJAH	GJAHR	NUMC	4	Fiscal Year of Reversal Document
+16	REVERSAL_DATE	16	 	ZC103E_FI_REVDATE	 	DATS	8	역분개 입력일자
+17	ATTACH_ID	17	 	ZC103EFI_ATTID	 	CHAR	8	첨부파일 그룹 ID
+18	TYPE_ID	18	 	SIBFTYPEID	SIBFTYPEID	CHAR	32	Type of Objects in Persistent Object References
+19	CAT_ID	19	 	SIBFCATID	SIBFCATID	CHAR	2	Category of Objects in Persistent Object References
+20	REVERSAL_BOOL	20	 	ZC103E_FI_REVERSAL_BOOL	 	CHAR	1	역분개여부
+21	REVERSAL_REASON	21	 	ZC103E_FI_REVERSAL_REASON	 	CHAR	50	역분개 사유
+22	BP_ID	22	 	ZC103E_FI_BPID	 	CHAR	10	BP 아이디
+23	BP_NAME	23	 	ZC103E_FI_BPNAME	 	CHAR	20	BP명
+24	AUGBL	24	 	AUGBL	BELNR	CHAR	10	Document Number of the Clearing Document
+25	AUGDT	25	 	AUGDT	DATUM	DATS	8	Clearing Date
+26	APPRONAME	26	 	ZC103E_FI_ENAME	 	CHAR	8	직원 명
+27	APPROCODE	27	 	ZC103E_FI_APPCODE	 	CHAR	20	결재번호
+28	APPRODAY	28	 	ZC103E_FI_APPDAY	 	DATS	8	결재일자
+29	REJTEXT	29	 	ZC103E_FI_REJ	 	CHAR	50	반려사유
+30	.INCLUDE	30	 	 	 	 	0	Time stamp
+31	ERDAT	31	 	ERDAT	DATUM	DATS	8	Record Creation Date
+32	ERZET	32	 	ERZET	UZEIT	TIMS	6	Entry time
+33	ERNAM	33	 	ERNAM	USNAM	CHAR	12	Name of Person Responsible for Creating the Object
+34	AEDAT	34	 	AEDAT	DATUM	DATS	8	Last Changed On
+35	AEZET	35	 	AEZET	UZEIT	TIMS	6	Time last change was made
+36	AENAM	36	 	AENAM	USNAM	CHAR	12	Name of Person Who Changed Object
+
+Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 758
