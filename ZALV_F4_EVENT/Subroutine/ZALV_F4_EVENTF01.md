@@ -321,7 +321,7 @@ FORM set_top_of_page .
   IF go_html_cntrl IS INITIAL.
     CREATE OBJECT go_html_cntrl
       EXPORTING
-        parent = go_topp_container.
+        parent = go_top_container.
   ENDIF.
 
   CALL METHOD go_dyndoc_id->merge_document.
@@ -331,7 +331,7 @@ FORM set_top_of_page .
   CALL METHOD go_dyndoc_id->display_document
     EXPORTING
       reuse_control      = 'X'
-      parent             = go_topp_container
+      parent             = go_top_container
     EXCEPTIONS
       html_display_error = 1.
 
@@ -492,6 +492,3 @@ FORM handle_modify_value  USING pv_modified
 
 
 ENDFORM.
-
-----------------------------------------------------------------------------------
-Extracted by Direct Download Enterprise version 1.3.1 - E.G.Mellodew. 1998-2005 UK. Sap Release 758
